@@ -1,6 +1,6 @@
 # fluttertemplate
 
-restaurant finder
+fluttertemplate
 
 ## Getting Started
 
