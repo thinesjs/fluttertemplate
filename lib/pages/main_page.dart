@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:fluttertemplate/pages/screens/Home/Home.dart';
+import 'package:fluttertemplate/pages/splash/splash.dart';
 import 'package:fluttertemplate/utils/constants.dart';
 
 class MainPage extends StatefulWidget {
@@ -18,14 +19,9 @@ class _MainPageState extends State<MainPage> {
   _MainPageState({this.selectedIndex});
 
 
-
-  @override
-  void initState() {
-
-  }
-
   List pages = [
-    Home()
+    Home(),
+    Splash(),
   ];
 
   int currentIndex = 0;

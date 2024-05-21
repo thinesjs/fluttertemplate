@@ -52,8 +52,7 @@ class MyApp extends StatelessWidget {
       ),
       themeMode: ThemeMode.system,
       debugShowCheckedModeBanner: false,
-      //home: VerifyAlert(),
-      initialRoute: RouteHelper.getHome(),
+      initialRoute: RouteHelper.getOnboarding(),
       getPages: RouteHelper.routes,
     );
   }
